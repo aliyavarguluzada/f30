@@ -1,0 +1,172 @@
+/* My defaults */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    border-bottom: #000 solid 2px;
+    /* width: 96%; */
+    padding: 20px 0px;
+    margin-top: 60px;
+
+}
+
+
+
+
+
+/* End of My defaults */
+
+/* Header */
+#header {
+    padding: 10px 30px;
+    border-bottom: 2px solid;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+#logo {
+    display: inline-block;
+    padding: 10px;
+}
+
+#logo span.first {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 8px;
+    letter-spacing: 4px;
+}
+
+#logo span.second {
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+}
+
+#nav {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 8px;
+    padding: 15px 20px;
+    display: inline-block;
+
+}
+
+/* End of the Header */
+
+#banner {
+    background-image: url(../images/banner.jpeg);
+    height: 87.5vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#banner-text {
+
+    padding-top: 20%;
+    padding-left: 43%;
+}
+
+#banner-text span {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    display: inline-block;
+}
+
+
+#banner-text h1 {
+    display: inline-block;
+
+}
+
+/* end banner */
+
+/* container house */
+.houses {
+    display: flex;
+    justify-content: space-between;
+
+}
+.house1{
+    width: 23%;
+}
+
+.house1 img {
+    width: 100%;
+    
+}
+
+.houses-row2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* about */
+
+#about-text {
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#about-text p {
+    font-size: 19px;
+}
+#team {
+    display: flex;
+    justify-content: space-between;
+}
+.team-member {
+    width: 23%;
+}
+.team-member img {
+    width: 100%;
+}
+/* End of the About */
+
+
+
+
+/* Contact */
+
+
+
+
+
+
