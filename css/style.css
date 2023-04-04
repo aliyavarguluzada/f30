@@ -167,6 +167,44 @@ li {
 
 
 
+/* End of he Contact */
+
+.contact h2 {
+    margin: 40px;
+}
 
 
 
+/* Map */
+
+.map {
+    display: flex;
+    justify-content: center;
+}
+.map {
+    width: 100%;
+}
+
+
+/* fff */
+.fff {
+    margin-top: 10px;
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    justify-content: center;
+}
+
+.fff p {
+    color: #fff;
+    padding-top: 30px ;
+    font-size: 20px;
+    
+}
+.fff p a {
+    text-decoration: underline;
+    color: #fff;
+    font-size: 20px;
+
+}
